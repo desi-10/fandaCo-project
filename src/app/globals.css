@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  text-decoration: none;
+  list-style: none;
+  /* border: 1px solid red; */
+  scroll-behavior: smooth;
+  font-family: "Kumbh sans";
+}
+
+.before::before {
+  content: "";
+  height: 100px;
+  width: 200;
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
